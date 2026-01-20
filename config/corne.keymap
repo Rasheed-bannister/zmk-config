@@ -24,19 +24,19 @@
 
       lower_layer {
         bindings = <
-          &kp TAB    &kp F1   &kp F2   &kp F3   &kp F4    &trans      &kp HOME  &kp N7     &kp N8    &kp N9    &kp KP_SLASH &kp MINUS
-          &kp LCTRL  &kp F5   &kp F6   &kp F7   &kp F8    &trans      &kp END   &kp N4     &kp N5    &kp N6    &kp EQUAL    &kp KP_ASTERISK
-          &kp CAPS   &kp F9   &kp F10  &kp F11  &kp F12   &trans      &kp N0    &kp N1     &kp N2    &kp N3    &kp DOT      &kp COMMA
-                                       &trans   &kp LSHFT &trans      &kp RET   &kp LSHFT  &kp BSPC
+          &kp TAB    &kp F1   &kp F2   &kp F3   &kp F4   &none      &kp HOME  &kp N7     &kp N8    &kp N9    &kp KP_SLASH &kp MINUS
+          &kp LCTRL  &kp F5   &kp F6   &kp F7   &kp F8   &none      &kp END   &kp N4     &kp N5    &kp N6    &kp EQUAL    &kp KP_ASTERISK
+          &kp CAPS   &kp F9   &kp F10  &kp F11  &kp F12  &none      &kp N0    &kp N1     &kp N2    &kp N3    &kp DOT      &kp COMMA
+                                       &trans   &trans   &trans     &kp RET   &kp LSHFT  &kp BSPC
           >;
         };
 
       raise_layer {
         bindings = <
-          &bt BT_SEL 0 &trans  &kp GRAVE &kp N9    &kp N0   &bt BT_CLR  &kp C_VOL_UP &kp C_BRI_UP &kp UP    &trans    &trans    &trans
-          &bt BT_SEL 1 &trans  &kp BSLH  &kp LBKT  &kp RBKT &trans      &kp C_VOL_DN &kp LEFT     &kp DOWN  &kp RIGHT &trans    &trans
-          &bt BT_SEL 2 &trans  &trans    &kp COMMA &kp DOT  &trans      &kp C_MUTE   &kp C_BRI_DN &trans    &trans    &trans    &trans
-                                         &kp LGUI  &trans   &kp ESC     &trans       &kp LSHFT    &trans
+          &bt BT_SEL 0 &none  &kp GRAVE &kp N9    &kp N0    &bt BT_CLR  &kp C_VOL_UP &kp C_BRI_UP &kp UP    &none    &none    &none
+          &bt BT_SEL 1 &none  &kp BSLH  &kp LBKT  &kp RBKT  &none       &kp C_VOL_DN &kp LEFT     &kp DOWN  &kp RIGHT &none    &none
+          &bt BT_SEL 2 &none  &none     &kp COMMA &kp DOT   &none       &kp C_MUTE   &kp C_BRI_DN &none     &none     &none    &none
+                                        &kp LGUI  &kp LSHFT &kp ESC     &trans       &kp LSHFT    &trans
           >;
         };
   };
