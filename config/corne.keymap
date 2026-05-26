@@ -24,10 +24,10 @@
 
       lower_layer {
         bindings = <
-          &kp TAB    &kp F1   &kp F2   &kp F3   &kp F4   &none      &kp HOME  &kp N7     &kp N8    &kp N9    &kp KP_SLASH &kp MINUS
-          &kp LCTRL  &kp F5   &kp F6   &kp F7   &kp F8   &none      &kp END   &kp N4     &kp N5    &kp N6    &kp EQUAL    &kp KP_ASTERISK
-          &kp CAPS   &kp F9   &kp F10  &kp F11  &kp F12  &none      &kp N0    &kp N1     &kp N2    &kp N3    &kp DOT      &kp COMMA
-                                       &trans   &trans   &trans     &kp RET   &kp LSHFT  &kp BSPC
+          &kp TAB    &kp F1   &kp F2   &kp F3   &kp F4   &none                               &kp HOME  &kp N7     &kp N8    &kp N9    &kp KP_SLASH &kp MINUS
+          &kp LCTRL  &kp F5   &kp F6   &kp F7   &kp F8   &kp KP_NUM                          &kp END   &kp N4     &kp N5    &kp N6    &kp EQUAL    &kp KP_ASTERISK
+          &kp CAPS   &kp F9   &kp F10  &kp F11  &kp F12  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS   &kp N0    &kp N1     &kp N2    &kp N3    &kp DOT      &kp COMMA
+                                       &trans   &trans   &trans                              &kp RET   &kp LSHFT  &kp BSPC
           >;
         };
 
